@@ -1,5 +1,5 @@
 import React from 'react'
-import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, ResumeButton, ButtonContainer, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
+import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems,ResumeButton ,GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
 import { DiCssdeck } from 'react-icons/di';
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
@@ -36,9 +36,9 @@ const Navbar = () => {
           <NavLink href="#about" className='nav-link about'>About</NavLink>
           <NavLink href='#skills' className='nav-link skills'>Skills</NavLink>
           <NavLink href='#projects' className='nav-link projects'>Projects</NavLink>
-          <NavLink href='#contact' className='nav-link contact'>Contacts</NavLink>
+          {/* <NavLink href='#contact' className='nav-link contact'>Contacts</NavLink> */}
           <ButtonContainer>
-          <ResumeButton id="resume-button-1" onClick={()=>{resumebtn()}} href="https://drive.google.com/file/d/15mDILxuptA_aorVDk_QHRX-NeFY9FhJQ/view?usp=sharing" target="_blank" className='nav-link resume'>Resume</ResumeButton>
+          <GitHubButton href={Bio.github} target="_blank">Github Profile</GitHubButton>
           </ButtonContainer>
         </NavItems>
 
@@ -54,9 +54,9 @@ const Navbar = () => {
             <MobileLink href='#skills' onClick={() => {
               setIsOpen(!isOpen)
             }}>Skills</MobileLink>
-            <MobileLink href='#contact' onClick={() => {
+            {/* <MobileLink href='#contact' onClick={() => {
               setIsOpen(!isOpen)
-            }}>Contact</MobileLink>
+            }}>Contact</MobileLink> */}
             <MobileLink href='#projects' onClick={() => {
               setIsOpen(!isOpen)
             }}>Project</MobileLink>

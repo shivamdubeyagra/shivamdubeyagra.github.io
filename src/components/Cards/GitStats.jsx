@@ -73,6 +73,9 @@ export const GithubDiv3 = styled.div`
     max-width: 400px;
     margin: auto;
   }
+.react-activity-calendar{
+  margin-bottom:5%;  
+}
 `
 
 export const GitStats = () => {

@@ -227,21 +227,21 @@ const Contact = () => {
         <DIV>
           <LEFTDIV>
             <EmailWrapper>
-              <SocialMediaIcon>
+              {/* <SocialMediaIcon>
                 <EmailinIcon />
-              </SocialMediaIcon>
-              <MyEmail id="contact-email">shivamdubeyagra@gmail.com</MyEmail>
+              </SocialMediaIcon> */}
+              {/* <MyEmail id="contact-email">shivamdubeyagra@gmail.com</MyEmail> */}
             </EmailWrapper>
             <EmailWrapper>
-              <SocialMediaIcon>
+              {/* <SocialMediaIcon>
                 <CallInIcon />
               </SocialMediaIcon>
-              <MyContact id="contact-phone">+91 9837394813</MyContact>
+              <MyContact id="contact-phone">+91 9837394813</MyContact> */}
             </EmailWrapper>
 
             <EmailWrapper style={{display:"flex",flexDirection:"column"}}>
-              <SocialMediaIcon id="contact-github" href={Bio.github} ><GithubInIcon /> https://github.com/shivamdubeyagra/</SocialMediaIcon>
-              <SocialMediaIcon id="contact-linkedin" href={Bio.linkedin}><LinkedInIcon /> https://www.linkedin.com/in/shivam-dubey-agra/</SocialMediaIcon>
+              {/* <SocialMediaIcon id="contact-github" href={Bio.github} ><GithubInIcon /> https://github.com/shivamdubeyagra/</SocialMediaIcon>
+              <SocialMediaIcon id="contact-linkedin" href={Bio.linkedin}><LinkedInIcon /> https://www.linkedin.com/in/shivam-dubey-agra/</SocialMediaIcon> */}
             </EmailWrapper>
           </LEFTDIV>
           <RIGHTDIV>

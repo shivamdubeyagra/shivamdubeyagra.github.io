@@ -9,7 +9,7 @@ export const Bio = {
   resume: 
     "",
   linkedin: "https://www.linkedin.com/in/shivam-dubey-agra",
-  about: "Greetings! I'm Shivam Dubey, a budding developer from Agra, Uttar Pradesh, with a keen interest in web development, particularly the MERN stack. Despite being new to the field, I've gained hands-on experience with React, Node.js, Express, and MongoDB during my studies. My passion lies in crafting user-friendly interfaces and scalable backends. Eager to learn and stay updated with the latest technologies, I am dedicated to expanding my skill set. If there are opportunities suitable for someone starting out like me, I would greatly appreciate the chance to connect. Thank you for considering my profile—I look forward to the exciting journey ahead!", 
+  about: "Hello! I'm Shivam Dubey, a MERN stack enthusiast from Agra, Uttar Pradesh. With hands-on experience in React, Node.js, Express, and MongoDB, I'm passionate about crafting user-friendly interfaces and scalable backends. Eager to grow and contribute, I look forward to the exciting journey ahead!", 
   twitter: "",
   insta: "",
   facebook: "",
