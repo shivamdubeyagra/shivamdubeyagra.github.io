@@ -74,7 +74,7 @@ export const GithubDiv3 = styled.div`
     margin: auto;
   }
 .react-activity-calendar{
-  margin-bottom:5%;  
+  margin-bottom:5%;
 }
 `
 
@@ -95,7 +95,7 @@ export const GitStats = () => {
                     </RightGithubDiv>
                 </GithubDIV2>
                 <GithubDiv3>
-                    <img className="react-activity-calendar" src="https://ghchart.rshah.org/FE428E/shivamdubeyagra" alt="Shivam's Github Contribution" style={{ maxWidth: "100%" }} />
+                    <img className="react-activity-calendar" src="https://ghchart.rshah.org/FE428E/shivamdubeyagra" alt="Shivam's Github Contribution" style={{ maxWidth: "100%",}} />
                 </GithubDiv3>
             </Wrapper>
         </div>

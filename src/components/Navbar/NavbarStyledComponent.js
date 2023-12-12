@@ -82,7 +82,7 @@ export const ResumeButton = styled.a`
   border-radius: 20px;
   color: ${({ theme }) => theme.primary};
   cursor: pointer;
-  padding: 5px 12px;
+  padding: 5px 8px;
   font-weight: 500;
   text-decoration: none;
   font-size: 16px;
@@ -116,7 +116,7 @@ export const GitHubButton = styled.a`
   border-radius: 20px;
   color: ${({ theme }) => theme.primary};
   cursor: pointer;
-  padding: 10px 12px;
+  padding: 7px 10px;
   font-weight: 500;
   text-decoration: none;
   font-size: 16px;

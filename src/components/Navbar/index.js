@@ -60,7 +60,8 @@ const Navbar = () => {
             <MobileLink href='#projects' onClick={() => {
               setIsOpen(!isOpen)
             }}>Project</MobileLink>
-            <ResumeButton id="resume-button-1" style={{ padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content' }} href={""} target="_blank" >Resume</ResumeButton>
+            {/* <ResumeButton id="resume-button-1" style={{ padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content' }} href={""} target="_blank" >Resume</ResumeButton> */}
+            <GitHubButton href={Bio.github} target="_blank" style={{ padding: '8px 10px', background: `${theme.primary}`, color: 'white', width: 'max-content' }}>Github Profile</GitHubButton>
           </MobileMenu>
         }
       </NavbarContainer>
