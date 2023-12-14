@@ -98,7 +98,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2023 Shviam Dubey. All rights reserved.
+          &copy; 2023 Shivam Dubey. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
