@@ -14,7 +14,7 @@ const HeroSection = () => {
         downloadLink.href = pdfPath;
         downloadLink.download = 'Shivam-Dubey-Resume.pdf';
         downloadLink.click();
-        }
+    }
 
     return (
         <div>
